@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Carte visite WS</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;900&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="monCanvas" width="500" height="200"></canvas>
+    <div class="select">
+        <select id="select">
+        </select>
+    </div>
+    <template id="card">
+        <div class="card">
+            <div class="top">
+                <img src="{imageProfil}" alt="Photo de profil">
+                <div class="text">
+                    <h1>{firstname} {lastname}</h1>
+                    <p>{job}</p>
+                </div>
+            </div>
+            <div class="content">
+                {iconMedal} {textMedal}
+            </div>
+            <div class="bottom"></div>
+        </div>
+    </template>
+    <div id="contentCard"></div>
+    <div id="exportButton">
+        Export my business card
+    </div>
+</body>
+</html>
