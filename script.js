@@ -11,7 +11,9 @@ const information = {
     job: "DevOps - FullStack Web developer",
     imageProfil: "profil.png",
     iconMedal: "&#129351;",
-    textMedal: "WorldSkills France, 2023"
+    textMedal: "WorldSkills France 2023 - <b> Gold Medal </b> </br> French champion",
+    iconMedal2: "🏅",
+    textMedal2: "WorldSkills Lyon 2024 - <b> Internationnal exellence Medal </b> </br> Top 12 World"
 };
 
 const main = () => {

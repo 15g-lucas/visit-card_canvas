@@ -15,7 +15,7 @@ body{
 }
 
 .select{
-    margin-top: -290px;
+    margin-top: -340px;
     margin-left: 0px;
     border: 2px solid #b9b6b6;
     border-radius: 5px;
@@ -30,7 +30,7 @@ body{
     position: absolute;
 }
 .card{
-    height: 200px;
+    height: 250px;
     width: 500px;
     border: 2px solid #b9b6b6;
     border-radius: 5px;
@@ -58,6 +58,7 @@ body{
     margin-right: 20px;
 }
 .content{
+    padding: 20px;
     text-align: center;
     border-top: 2px solid #b9b6b6;
 }
@@ -78,7 +79,7 @@ body{
     cursor: pointer;
     width: 500px;
     height: 35px;
-    margin-top: 300px;
+    margin-top: 350px;
     margin-left: -505px;
     border: 2px solid #b9b6b6;
     border-radius: 5px;
